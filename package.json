@@ -9,17 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@humanwhocodes/config-array": "^0.13.0",
+    "@humanwhocodes/object-schema": "^2.0.3",
     "autoprefixer": "^10.4.20",
     "axios": "^1.7.7",
+    "glob": "^11.0.0",
+    "inflight": "^1.0.6",
     "mongoose": "^8.7.2",
     "next": "14.2.15",
     "react": "^18",
     "react-dom": "^18",
     "react-toastify": "^10.0.6",
+    "rimraf": "^6.0.1",
     "sharp": "^0.33.5"
   },
   "devDependencies": {
-    "eslint": "^8",
+    "eslint": "^8.0.0",
     "eslint-config-next": "14.2.15",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.14"
